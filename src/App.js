@@ -54,7 +54,7 @@ function App() {
         query={query}
         onQueryChange={(myQuery) => setQuery(myQuery)}
         orderBy={orderBy}
-        onOrderByChange={(mySort) => orderBy(mySort)}
+        onOrderByChange={(mySort) => setOrderBy(mySort)}
         sortBy={sortBy}
         onSortByChange={(mySort) => setSortBy(mySort)}
       />
